@@ -1,1 +1,7 @@
-declare module '*.jpg'
+// declare module '*.jpg'
+interface Currency{
+    name: string;
+    value: number;
+    flag: string;
+    symbol: string;
+}
